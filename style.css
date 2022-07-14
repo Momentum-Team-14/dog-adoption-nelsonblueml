@@ -11,6 +11,34 @@ header {
     font-family: "Oswald";
 }
 
+.dogs-available {
+    border: 4px solid purple;
+    /* background-color: purple; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+/*   flex-direction: column; */
+}
+
+.dog-details {
+    width: 30%;
+}
+
+.dog-pic {
+    width: 90%;
+}
+
+.dog-traits-list {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .dog-trait {
     background-color: #89DEEF;
+    display: flex;
+    margin: 2px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
