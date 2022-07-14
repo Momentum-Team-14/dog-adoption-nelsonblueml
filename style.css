@@ -1,0 +1,16 @@
+header {
+    background-color: #004175;
+    padding: 0.25rem 0.25rem 0.25rem 2rem;
+    border-bottom: solid;
+    border-bottom-width: 0.5rem;
+    border-bottom-color: #89DEEF;
+}
+
+.page-title {
+    color: white;
+    font-family: "Oswald";
+}
+
+.dog-trait {
+    background-color: #89DEEF;
+}
