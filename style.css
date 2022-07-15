@@ -16,16 +16,15 @@ header {
 }
 
 .dogs-available {
-    border: 1px solid purple;
-    /* background-color: purple; */
+    margin-left: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-/*   flex-direction: column; */
 }
 
 .dog-details {
     width: 30%;
+    margin-top: 1rem;
 }
 
 .dog-pic {
@@ -33,7 +32,7 @@ header {
 }
 
 .dog-traits-list {
-    margin: 0;
+    margin-left: -2.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -41,41 +40,35 @@ header {
 
 .dog-trait {
     background-color: #89DEEF;
+    border-radius: 0.5rem;
     display: flex;
-    margin: 2px;
+    margin: 5px;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-/* a la div .dogs-available */
 footer {
-    /* height: 18rem; */
+    margin-top: 2rem;
     height: 296px;
-    border: 1px solid purple;
-    /* background-color: #004175; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-/* a la div .dog-details */
 .footer-contents {
-    height: 18rem;
-    border: 1px solid purple;
-    /* background-color: purple; */
+    background-color: #A6A9F0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-/*   flex-direction: column; */
 }
 
-/* a la dog-pic */
 .footer-pic {
     width: 100%;
-    height: 18rem;
+    height: 296px;
     position: relative;
     text-align: center;
     color: white;
+    opacity: 0.5;
 }
 
 .footer-pic-text {
@@ -86,20 +79,6 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-
-
-
-.imgHolder {
-    position: relative;
-}
-.imgHolder span {
-    /* position: absolute;
-    right: 10px;
-    top: 10px; */
-}
-
-
-
 .footer-sec1 {
     position: relative;
     text-align: center;
@@ -107,8 +86,12 @@ footer {
     display: inline;
     width: 33.3%;
     height: 18rem;
+
     background-image: "starter_files/images/donate.jpg";
-    background-color: #A6A9F0;
+    background-color: rgba(166, 169, 240, 1);
+    background-blend-mode: multiply;
+
+    /* background-color: #A6A9F0; */
     background-position: center;
     background-size: 33.3% 33.3%;
     background-repeat: no-repeat;
@@ -145,68 +128,3 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
-/* footer {
-    font-family: "Open Sans";
-    color: white;
-    background-color: #A6A9F0;
-    height: 26rem;
-}
-
-.footer-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 33%;
-    height: 100%;
-}
-
-.footer-section1{
-    display: flex;
-    flex-wrap: wrap;
-    width: 33%;
-    height: 100%;
-    background:
-        linear-gradient(
-            rgba(166, 169, 240, 0.45), 
-            rgba(166, 169, 240, 0.45)),
-        url('starter_files/images/donate.jpg');
-    background-size: cover;
-    background-position: center;  
-}
-
-.footer-section2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 33%;
-    height: 100%;
-    background:
-        linear-gradient(
-            rgba(166, 169, 240, 0.45), 
-            rgba(166, 169, 240, 0.45)),
-        url('starter_files/images/volunteer.jpg');
-    background-size: cover;
-    background-position: center;  
-}
-
-.footer-section3{
-    display: flex;
-    flex-wrap: wrap;
-    width: 33%;
-    height: 100%;
-    background:
-        linear-gradient(
-            rgba(166, 169, 240, 0.45), 
-            rgba(166, 169, 240, 0.45)),
-        url('starter_files/images/location.png');
-    background-size: cover;
-    background-position: center;  
-}    
-
-.dog-traits-list {
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-} */
