@@ -79,7 +79,6 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-/* a la footer-sec2 */
 .footer-sec {
     position: relative;
     text-align: center;
@@ -87,7 +86,6 @@ footer {
     display: inline;
     width: 33.3%;
     height: 18rem;
-    /* background-image: "starter_files/images/volunteer.jpg"; */
     background-color: #A6A9F0;
     background-position: center;
     background-size: 33.3% 33.3%;
