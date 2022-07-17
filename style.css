@@ -1,7 +1,3 @@
-body {
-    font-family: "Oswald";
-}
-
 header {
     background-color: #004175;
     padding: 0.25rem 0.25rem 0.25rem 2rem;
@@ -16,15 +12,16 @@ header {
 }
 
 .dogs-available {
-    margin-left: 1rem;
+    border: 4px solid purple;
+    /* background-color: purple; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+/*   flex-direction: column; */
 }
 
 .dog-details {
     width: 30%;
-    margin-top: 1rem;
 }
 
 .dog-pic {
@@ -32,7 +29,7 @@ header {
 }
 
 .dog-traits-list {
-    margin-left: -2.5rem;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -40,25 +37,32 @@ header {
 
 .dog-trait {
     background-color: #89DEEF;
-    border-radius: 0.5rem;
     display: flex;
-    margin: 5px;
+    margin: 2px;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
 footer {
-    margin-top: 2rem;
-    height: 296px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    font-family: "Open Sans";
+    color: white;
+    background-color: #A6A9F0;
+    height: 26rem;
 }
 
-.footer-contents {
-    background-color: #A6A9F0;
+.footer-section{
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+<<<<<<< HEAD
+    width: 33%;
+    height: 100%;
+}
+=======
     justify-content: space-evenly;
 }
 
@@ -92,4 +96,3 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
