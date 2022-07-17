@@ -79,34 +79,15 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-.footer-sec1 {
+/* a la footer-sec2 */
+.footer-sec {
     position: relative;
     text-align: center;
     color: white;
     display: inline;
     width: 33.3%;
     height: 18rem;
-
-    background-image: "starter_files/images/donate.jpg";
-    background-color: rgba(166, 169, 240, 1);
-    background-blend-mode: multiply;
-
-    /* background-color: #A6A9F0; */
-    background-position: center;
-    background-size: 33.3% 33.3%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* background-color: pink; */
-}
-
-.footer-sec2 {
-    position: relative;
-    text-align: center;
-    color: white;
-    display: inline;
-    width: 33.3%;
-    height: 18rem;
-    background-image: "starter_files/images/volunteer.jpg";
+    /* background-image: "starter_files/images/volunteer.jpg"; */
     background-color: #A6A9F0;
     background-position: center;
     background-size: 33.3% 33.3%;
@@ -114,17 +95,3 @@ footer {
     background-attachment: fixed;
 }
 
-.footer-sec3 {
-    position: relative;
-    text-align: center;
-    color: white;
-    display: inline;
-    width: 33.3%;
-    height: 18rem;
-    background-image: "starter_files/images/location.jpg";
-    background-color: #A6A9F0;
-    background-position: center;
-    background-size: 33.3% 33.3%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
