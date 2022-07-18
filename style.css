@@ -1,0 +1,98 @@
+header {
+    background-color: #004175;
+    padding: 0.25rem 0.25rem 0.25rem 2rem;
+    border-bottom: solid;
+    border-bottom-width: 0.5rem;
+    border-bottom-color: #89DEEF;
+}
+
+.page-title {
+    color: white;
+    font-family: "Oswald";
+}
+
+.dogs-available {
+    border: 4px solid purple;
+    /* background-color: purple; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+/*   flex-direction: column; */
+}
+
+.dog-details {
+    width: 30%;
+}
+
+.dog-pic {
+    width: 90%;
+}
+
+.dog-traits-list {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.dog-trait {
+    background-color: #89DEEF;
+    display: flex;
+    margin: 2px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+footer {
+    font-family: "Open Sans";
+    color: white;
+    background-color: #A6A9F0;
+    height: 26rem;
+}
+
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+<<<<<<< HEAD
+    width: 33%;
+    height: 100%;
+}
+=======
+    justify-content: space-evenly;
+}
+
+.footer-pic {
+    width: 100%;
+    height: 296px;
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer-pic-text {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-sec {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline;
+    width: 33.3%;
+    height: 18rem;
+    background-color: #A6A9F0;
+    background-position: center;
+    background-size: 33.3% 33.3%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
